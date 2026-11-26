@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Entitlements applied when signing with a Developer ID (scripts/sign-and-notarize.sh).
+  Graphist needs none for Developer ID distribution with the hardened runtime:
+  Metal (including runtime shader compilation) works without extra entitlements.
+
+  For the Mac App Store you must add the sandbox:
+      <key>com.apple.security.app-sandbox</key><true/>
+  plus any capabilities you use (e.g. com.apple.security.files.user-selected.read-only).
+-->
+<plist version="1.0">
+<dict>
+</dict>
+</plist>
